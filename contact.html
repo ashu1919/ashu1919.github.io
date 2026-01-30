@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Ashutosh Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/000000/portfolio.png">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-code"></i>
+                Ashutosh<span>.</span>
+            </a>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in">
+                    <h1>Let's Connect</h1>
+                    <p class="subtitle">Ready to Bring Your Ideas to Life</p>
+                    <p>I'm currently available for freelance projects and full-time opportunities. Whether you have a project in mind, need consultation, or just want to say hello, feel free to reach out!</p>
+                    <div class="hero-buttons">
+                        <a href="mailto:ashutosh@example.com" class="btn btn-lg">
+                            <i class="fas fa-envelope"></i>
+                            Email Me
+                        </a>
+                        <a href="#contact-form" class="btn btn-lg btn-outline">
+                            <i class="fas fa-comment-alt"></i>
+                            Send Message
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in delay-1">
+                    <img src="./../NEW PORTFOLIO/assets/ashu2.jpeg" alt="Contact Me">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section id="contact-info">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Multiple ways to connect with me</p>
+            </div>
+            
+            <div class="contact-content">
+                <!-- Contact Details -->
+                <div class="contact-info">
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Address</h4>
+                            <p>ashutoshkhilar5@gmail.com</p>
+                            <p style="font-size: 0.9rem; color: var(--gray);">I typically respond within 24 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item fade-in delay-1">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone Number</h4>
+                            <p>+91 8093924960</p>
+                            <p style="font-size: 0.9rem; color: var(--gray);">Available Mon-Fri, 9AM-6PM IST</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item fade-in delay-2">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Bhubaneswar, India</p>
+                            <p style="font-size: 0.9rem; color: var(--gray);">Open to remote work worldwide</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item fade-in">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Working Hours</h4>
+                            <p>Monday - Saturday</p>
+                            <p style="font-size: 0.9rem; color: var(--gray);">9:00 AM - 6:00 PM (IST)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-container fade-in delay-1" id="contact-form">
+                    <h3 style="margin-bottom: 30px; color: var(--dark);">Send Me a Message</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="project-type">Project Type</label>
+                            <select id="project-type" name="project-type">
+                                <option value="">Select project type</option>
+                                <option value="web">Web Development</option>
+                                <option value="mobile">Mobile App</option>
+                                <option value="design">UI/UX Design</option>
+                                <option value="consulting">Consulting</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Project Budget (INR)</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="<1000">Less than ₹1,000</option>
+                                <option value="1000-5000">₹1,000 - ₹5,000</option>
+                                <option value="5000-10000">₹5,000 - ₹10,000</option>
+                                <option value="10000-25000">₹10,000 - ₹25,000</option>
+                                <option value=">25000">More than ₹25,000</option>
+                                <option value="discuss">Let's discuss</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project, timeline, and requirements..." required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="file">Attach File (Optional)</label>
+                            <input type="file" id="file" name="file" accept=".pdf,.doc,.docx,.jpg,.png,.zip">
+                            <small style="display: block; margin-top: 5px; color: var(--gray);">Max file size: 5MB (PDF, DOC, Images, ZIP)</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <label for="newsletter" style="font-weight: normal; display: inline; margin-left: 5px;">
+                                    Subscribe to my newsletter for updates and insights
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-lg">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" style="background: linear-gradient(135deg, #f0f9ff 0%, #fdf2ff 100%);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Common questions about working with me</p>
+            </div>
+            
+            <div class="faq-container" style="max-width: 800px; margin: 60px auto 0;">
+                <div class="faq-item fade-in">
+                    <div class="faq-question" style="padding: 25px; background: white; border-radius: 15px; margin-bottom: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; box-shadow: var(--shadow);">
+                        <h4 style="margin: 0;">What is your typical project timeline?</h4>
+                        <i class="fas fa-chevron-down" style="transition: transform 0.3s;"></i>
+                    </div>
+                    <div class="faq-answer" style="padding: 0 25px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;">
+                        <p style="padding: 20px 0; color: var(--gray); line-height: 1.7;">Project timelines vary based on complexity. A simple website typically takes 2-4 weeks, while complex web applications may take 2-6 months. I provide detailed timelines after understanding project requirements.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item fade-in delay-1">
+                    <div class="faq-question" style="padding: 25px; background: white; border-radius: 15px; margin-bottom: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; box-shadow: var(--shadow);">
+                        <h4 style="margin: 0;">What is your development process?</h4>
+                        <i class="fas fa-chevron-down" style="transition: transform 0.3s;"></i>
+                    </div>
+                    <div class="faq-answer" style="padding: 0 25px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;">
+                        <p style="padding: 20px 0; color: var(--gray); line-height: 1.7;">My process follows these stages: Discovery & Planning → Design & Prototyping → Development → Testing & Quality Assurance → Deployment → Maintenance & Support. I maintain regular communication throughout.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item fade-in delay-2">
+                    <div class="faq-question" style="padding: 25px; background: white; border-radius: 15px; margin-bottom: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; box-shadow: var(--shadow);">
+                        <h4 style="margin: 0;">Do you provide maintenance after project completion?</h4>
+                        <i class="fas fa-chevron-down" style="transition: transform 0.3s;"></i>
+                    </div>
+                    <div class="faq-answer" style="padding: 0 25px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;">
+                        <p style="padding: 20px 0; color: var(--gray); line-height: 1.7;">Yes, I offer various maintenance plans including bug fixes, updates, security monitoring, and performance optimization. We can discuss a maintenance plan that fits your needs and budget.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item fade-in">
+                    <div class="faq-question" style="padding: 25px; background: white; border-radius: 15px; margin-bottom: 15px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; box-shadow: var(--shadow);">
+                        <h4 style="margin: 0;">What technologies do you specialize in?</h4>
+                        <i class="fas fa-chevron-down" style="transition: transform 0.3s;"></i>
+                    </div>
+                    <div class="faq-answer" style="padding: 0 25px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease;">
+                        <p style="padding: 20px 0; color: var(--gray); line-height: 1.7;">I specialize in modern web technologies including React, Vue.js, Node.js, Python/Django, MongoDB, PostgreSQL, and cloud platforms like AWS and Firebase. I also work with mobile technologies like React Native and Flutter.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Find Me Here</h2>
+                <p>Based in Bhubaneswar, serving clients worldwide</p>
+            </div>
+            
+            <div class="map-container fade-in" style="margin-top: 60px; border-radius: 20px; overflow: hidden; box-shadow: var(--shadow); height: 400px; position: relative;">
+                <!-- Embedded Google Map -->
+                <div style="width: 100%; height: 100%; background: #f1f5f9; display: flex; align-items: center; justify-content: center;">
+                    <div style="text-align: center; padding: 40px;">
+                        <i class="fas fa-map-marker-alt" style="font-size: 4rem; color: var(--primary); margin-bottom: 20px;"></i>
+                        <h3 style="margin-bottom: 15px;">Bhubaneswar, India</h3>
+                        <p style="color: var(--gray); max-width: 400px; margin: 0 auto;">Available for remote work worldwide. Timezone: IST (UTC+5:30)</p>
+                    </div>
+                </div>
+                
+                <!-- Map overlay with contact info -->
+                <div style="position: absolute; top: 30px; right: 30px; background: white; padding: 25px; border-radius: 15px; box-shadow: var(--shadow); max-width: 300px;">
+                    <h4 style="margin-bottom: 15px; color: var(--dark);">Contact Info</h4>
+                    <div style="margin-bottom: 15px;">
+                        <p style="color: var(--gray); margin-bottom: 5px;"><i class="fas fa-envelope" style="color: var(--primary); margin-right: 10px;"></i> ashutoshkhilar5@gmail.com</p>
+                        <p style="color: var(--gray);"><i class="fas fa-phone" style="color: var(--primary); margin-right: 10px;"></i> +91 8093924960</p>
+                    </div>
+                    <div>
+                        <p style="color: var(--gray); font-size: 0.9rem;"><i class="fas fa-info-circle" style="color: var(--primary); margin-right: 10px;"></i> Remote work available worldwide</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div class="cta-box" style="background: linear-gradient(135deg, var(--primary), var(--secondary)); padding: 80px; border-radius: 30px; text-align: center; color: white; position: relative;">
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px; color: white;">Let's Build Something Amazing Together</h2>
+                <p style="font-size: 1.2rem; margin-bottom: 40px; max-width: 700px; margin-left: auto; margin-right: auto; color: rgba(255, 255, 255, 0.9);">
+                    Have a project in mind? I'd love to hear about it. Send me a message and let's discuss how we can work together.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact-form" class="btn btn-lg" style="background: white; color: var(--primary); margin-right: 15px;">
+                        <i class="fas fa-paper-plane"></i>
+                        Start a Project
+                    </a>
+                    <a href="tel:+919876543210" class="btn btn-lg btn-outline" style="border-color: white; color: white;">
+                        <i class="fas fa-phone"></i>
+                        Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Ashutosh<span>.</span></h3>
+                    <p>Software Developer creating exceptional digital experiences with modern technologies and innovative solutions.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/ashu-7683" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ashutoshkhilar7683/" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://x.com/ashutosh_k63132" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/__ashu.u.u__" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/ashutosh.khilar.98" class="social-link" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="projects.html"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> UI/UX Design</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Mobile Apps</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Application Development</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <div class="footer-newsletter">
+                        <p>Subscribe to my newsletter for the latest updates and insights on web development.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="ashutoshkhilar5@gmail.com" required>
+                            <button type="submit" class="btn btn-sm">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Ashutosh. All rights reserved. | Designed with <i class="fas fa-heart" style="color: #ef4444;"></i> by Ashutosh</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <style>
+        .checkbox {
+            display: flex;
+            align-items: center;
+        }
+        
+        .checkbox input {
+            width: auto;
+            margin-right: 10px;
+        }
+        
+        .faq-question.active .fa-chevron-down {
+            transform: rotate(180deg);
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        @media (max-width: 768px) {
+            .cta-box {
+                padding: 40px 20px;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .cta-buttons .btn {
+                margin-right: 0 !important;
+            }
+        }
+    </style>
+    <script>
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const isActive = question.classList.contains('active');
+                
+                // Close all other FAQ items
+                document.querySelectorAll('.faq-question').forEach(q => {
+                    if (q !== question) {
+                        q.classList.remove('active');
+                        q.nextElementSibling.style.maxHeight = null;
+                        q.nextElementSibling.style.padding = '0 25px';
+                    }
+                });
+                
+                // Toggle current FAQ item
+                if (isActive) {
+                    question.classList.remove('active');
+                    answer.style.maxHeight = null;
+                    answer.style.padding = '0 25px';
+                } else {
+                    question.classList.add('active');
+                    answer.style.maxHeight = answer.scrollHeight + 'px';
+                    answer.style.padding = '0 25px';
+                }
+            });
+        });
+        
+        // Enhanced Form Submission
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form values
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const subject = document.getElementById('subject').value;
+                const message = document.getElementById('message').value;
+                
+                // Validate required fields
+                if (!name || !email || !subject || !message) {
+                    showNotification('Please fill in all required fields marked with *', 'error');
+                    return;
+                }
+                
+                // Validate email format
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(email)) {
+                    showNotification('Please enter a valid email address', 'error');
+                    return;
+                }
+                
+                // Show loading state
+                const submitBtn = this.querySelector('button[type="submit"]');
+                const originalText = submitBtn.innerHTML;
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+                submitBtn.disabled = true;
+                
+                // Simulate form submission
+                setTimeout(() => {
+                    showNotification(`Thank you ${name}! Your message has been sent successfully. I'll get back to you within 24 hours.`, 'success');
+                    
+                    // Reset form
+                    contactForm.reset();
+                    
+                    // Reset button
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                    
+                    // Scroll to top of form
+                    document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' });
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
