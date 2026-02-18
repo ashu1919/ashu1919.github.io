@@ -1,5 +1,14 @@
-## Hi 👋, I'm Ashutosh Khilar  
+# Ashutosh Swain - Portfolio
 
-💻 Software Developer | Web & Python Enthusiast  
-🚀 Passionate about building scalable web apps and learning AI/ML  
-🌐 Portfolio: https://ashu-7683.github.io
+Welcome to my personal portfolio website.
+
+## 👨‍💻 About Me
+Java Developer with experience in Spring Boot, REST APIs and MySQL.
+
+## 🔗 Live Website
+👉 https://ashu1919.github.io/
+
+## 🛠 Technologies Used
+- HTML
+- CSS
+- JavaScript
